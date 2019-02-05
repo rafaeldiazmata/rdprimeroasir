@@ -1,0 +1,63 @@
+body{
+    background: honeydew;
+    font-family: cursive;
+    padding: 0 3em }
+
+h1{
+    font-family: cursive;
+    color: crimson}
+
+li{
+
+    list-style: circle;
+    
+}
+
+h2{
+    font-family: cursive;
+    color: chocolate}
+
+p{
+    font-family: cursive,Arial, Helvetica, sans-serif;}
+
+img{
+    border: 1em;
+    border: powderblue;
+    }
+
+
+a{
+    color: cornflowerblue;
+}
+
+    input {
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.16), 0 1px 5px 0 rgba(0,0,0,.12);
+        padding: 5px;
+        min-width: 300px;
+    }
+    label {
+        font-size: 1.5em;
+        color:orange;
+        margin-left: 10px;
+    }
+    
+    button{
+        background: black;
+        color: white;
+        border-color: black;
+        padding: 0.5em;}
+
+    table{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    th{
+        background: coral
+    }
+
+    th,td{
+        padding: 1em;
+
+    }
+    

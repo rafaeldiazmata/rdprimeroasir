@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="author" content="Rafael Carlos Díaz Mata"/>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="../../../general.css">
+  <link rel="stylesheet" type="text/css" href="../../../estilo.css">
+  <title>Rafael Carlos Díaz Mata 1ºAsir</title>
+</head>
+<body>
+
+	<ul id="button">
+     
+         <li><a href="../../../index.html">Inicio</a></li>
+         <li><a href="../../Ejercicio%202/Ejercicio%202.html">Siguiente</a></li>
+         <li><a href="../Ejercicio%202/Ejercicio%202.html">Anterior</a></li>
+
+    </ul>
+    </br>
+
+	<h1>canvas</h1>
+
+
+	<canvas id="canvas" width="150" height="150" title="Circulo gradiante"></canvas>
+	<canvas id="canvas2" width="150" height="150" title="Circulo morado"></canvas>
+	<canvas id="canvas3" width="150" height="150" title="Circulo Blanco"></canvas>
+
+
+
+
+	<script type="text/javascript">
+		
+		var c = document.getElementById("canvas");
+		var ctx = c.getContext("2d");
+		ctx.beginPath();
+		ctx.strokeStyle = "#000000";            
+		ctx.arc(100, 75, 50, 0, 2 * Math.PI);
+		var Gradi=ctx.createLinearGradient(0,0,170,0);
+		Gradi.addColorStop(0,"black");
+		Gradi.addColorStop(1,"white");
+		ctx.fillStyle = Gradi;
+		ctx.fill();      
+		ctx.stroke();
+		var d = document.getElementById("canvas2");
+		var cty = d.getContext("2d");
+		cty.beginPath();
+		cty.strokeStyle = "#000000";            
+		cty.arc(100, 75, 50, 0, 2 * Math.PI);
+		cty.fillStyle = '#ff00fe';
+		cty.fill();      
+		cty.stroke();
+
+		var e = document.getElementById("canvas3");
+		var ctz = e.getContext("2d");
+		ctz.beginPath();
+		ctz.strokeStyle = "#000000";            
+		ctz.arc(100, 75, 50, 0, 2 * Math.PI);
+		ctz.fillStyle = '#ffffff';
+		ctz.fill();      
+		ctz.stroke();
+
+	</script>
+
+
+
+
+
+
+</body>
+</html>

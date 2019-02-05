@@ -1,0 +1,66 @@
+<html>
+<head>
+	<meta name="author" content="Rafael Carlos Díaz Mata"/>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="../../general.css">
+	<link rel="stylesheet" type="text/css" href="../../estilo.css">
+	<title>Rafael Carlos Díaz Mata 1ºAsir</title>
+
+</head>
+<body>
+
+	<ul id="button">
+     
+         <li><a href="../../index.html">Inicio</a></li>
+         <li><a href="../../Ejercicio%2018/Ejercicio%2018.html">Siguiente</a></li>
+         <li><a href="../Ejercicio%203/Ejercicio%203.html">Anterior</a></li>
+
+    </ul>
+    </br>
+
+	<h1>Rafael Carlos Díaz Mata</h1>
+	<h2>Formulario DNI HTML5</h2>
+
+	<form action="/php/insertar_formulario.php" method="post">
+		<label for="name">Nombre completo</label>
+		<input type="text" name="name" placeholder="Tu nombre"/>
+		</br>
+		<label for="DNI">DNI</label>
+		<input type="text" pattern="(([0-9]{8})([-\s])?([A-Za-z]{1}))" required minlength="9" maxlength="10" required=""/>
+		</br>
+		<label for="Submit form"</label>
+		<input type="submit" name="Submit form"/>
+	</form>
+
+	<table border="1">
+		<caption><strong>Etiquetas y atributos utilizados en este formulario</strong></caption>
+		</br>
+		<tr>
+			<th>Etiquetas</th>
+			<th>Atributos</th>
+			<th>Descripción</th>
+		</tr>
+		<tr>
+			<td>form</td>
+			<td>action</td>
+			<td>Etiqueta que marca el inicio y el final del formulario</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>for</td>
+			<td>Muestra texto antes del elemento</td>
+		</tr>
+		<tr>
+			<td>input</td>
+			<td>text</td>
+			<td>Sirve para insertar texto</td>
+		</tr>
+		<tr>
+			<td>input</td>
+			<td>submit</td>
+			<td>enviar la información</td>
+		</tr>
+
+</body>
+</html>

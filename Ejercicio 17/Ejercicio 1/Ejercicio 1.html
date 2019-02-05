@@ -1,0 +1,117 @@
+<html>
+
+<head>
+	<meta name="author" content="Rafael Carlos Díaz Mata"/>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="../../general.css">
+	<link rel="stylesheet" type="text/css" href="../../estilo.css">
+	<title>Rafael Carlos Díaz Mata 1ºAsir</title>
+</head>
+
+<body>
+
+    <ul id="button">
+     
+         <li><a href="../../index.html">Inicio</a></li>
+         <li><a href="../Ejercicio%202/Ejercicio%202.html">Siguiente</a></li>
+         <li><a href="../Ejercicio%2017.html">Anterior</a></li>
+
+    </ul>
+    </br>
+
+	<h1>Rafael Carlos Díaz Mata</h1>
+	<h2>Primer formulario HTML5</h2>
+	<img src="http://www.onextrapixel.com/wp-content/uploads/2012/01/html5-tutorials-4.jpg" alt="imagen del formulario">
+	<table>
+		<caption><strong>Etiquetas y atributos utilizados en este formulario</strong></caption>
+		</br>
+		<tr>
+			<th>Etiquetas</th>
+			<th>Atributos</th>
+			<th>Descripción</th>
+		</tr>
+		<tr>
+			<td>form</td>
+			<td>action</td>
+			<td>Etiqueta que marca el inicio y el final del formulario</td>
+		</tr>
+		<tr>
+			<td>Label</td>
+			<td>for</td>
+			<td>Muestra texto antes del elemento</td>
+		</tr>
+		<tr>
+			<td>input</td>
+			<td>range</td>
+			<td>Genera un rango de valores los caules aparecen en forma de barra deslizante</td>
+		</tr>
+		<tr>
+			<td>input</td>	
+			<td>number</td>
+			<td>Se utiliza para seleccionar un numero</td>
+		</tr>
+		<tr>
+			<td>input</td>	
+			<td>date</td>
+			<td>Se utiliza para seleccionar una fecha</td>
+		</tr>
+		<tr>
+			<td>input</td>
+			<td>color</td>
+			<td>Se utiliza para escoger un color</td>
+		</tr>
+		<tr>
+			<td>input</td>
+			<td>text</td>
+			<td>Sirve para insertar texto</td>
+		</tr>
+		<tr>
+			<td>input</td>
+			<td>Url</td>
+			<td>insertar una url</td>
+		</tr>
+		<tr>
+			<td>input</td>
+			<td>email</td>
+			<td>insertar tu correo</td>
+		</tr>
+		<tr>
+			<td>input</td>
+			<td>submit</td>
+			<td>enviar la información</td>
+		</tr>
+
+	</table>
+
+	<h1>Cross-browser HTML5 forms</h1>
+	<p><strong>with <u>webforms2</u>,<u>Modernizr</u>,<u>jQuery UI</u> and other jQuery Plugins</strong></p>
+
+	<form action="/php/insertar_formulario.php" method="post">
+
+	<label for="rango">Slider</label>
+	<input type="range" name"rango">
+	</br>
+	<label for="spinner">Numeric Spinners</label>
+	<input type="number" name="spinner" min="0" max="100" />
+	</br>
+	<label for="fecha">date picker</label>
+	<input type="date" name="fecha" />
+	</br>
+	<label for="color">Color picker</label>
+	<input type="color" name="color" />
+  	</br>
+  	<label for="texto">Text field with placeholder</label>
+  	<input type="text" name="texto" value="insert your text here" />
+  	</br>
+  	<label for="url">Url field</label>
+  	<input type="url" name="url" value="http://net.tutsplus.com/" />
+  	</br>
+  	<label for="email">Email field</label>
+  	<input type="email" name="email" value="contact@qhinda.net" />
+  	</br>
+  	<input type="submit" name="Submit form"/>
+	</form>
+
+</body>
+</html>

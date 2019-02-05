@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="author" content="Rafael Carlos Díaz Mata"/>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="../../../general.css">
+  <link rel="stylesheet" type="text/css" href="../../../estilo.css">
+  <title>Rafael Carlos Díaz Mata 1ºAsir</title>
+</head>
+<body>
+
+	<ul id="button">
+     
+         <li><a href="../../../index.html">Inicio</a></li>
+         <li><a href="../Ejercicio%203/Ejercicio%203.html">Siguiente</a></li>
+         <li><a href="../Ejercicio%201/Ejercicio%201.html">Anterior</a></li>
+
+    </ul>
+    </br>
+
+	<h1>canvas</h1>
+
+
+	<canvas id="canvas" width="150" height="100" title="Rectángulo casi blanco"></canvas>
+	<canvas id="canvas2" width="50" height="150" title="Rectángulo gris"></canvas>
+	<canvas id="canvas3" width="150" height="100" title="Rectángulo negro"></canvas>
+
+
+
+
+	<script type="text/javascript">
+		
+		let canvas1 = document.getElementById('canvas');
+		let contexto = canvas1.getContext('2d');
+		contexto.fillStyle = '#efefef';
+		contexto.fillRect(0, 0, 150, 100);
+
+		let canvas2 = document.getElementById('canvas2');
+		let contexto2 = canvas2.getContext('2d');
+		contexto2.fillStyle = '#888888';
+		contexto2.fillRect(0, 0, 50, 150);
+
+		let canvas3 = document.getElementById('canvas3');
+		let contexto3 = canvas3.getContext('2d');
+		contexto3.fillStyle = '#000000';
+		contexto3.fillRect(0, 0, 150, 100);
+
+	</script>
+
+
+
+
+
+
+</body>
+</html>

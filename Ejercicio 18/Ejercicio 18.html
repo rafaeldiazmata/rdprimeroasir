@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Rafael Carlos Díaz Mata"/>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="../general.css">
+        <link rel="stylesheet" type="text/css" href="../estilo.css">
+        <title>Rafael Carlos Díaz Mata 1ºAsir</title>
+    </head>
+    <body>
+
+        <ul id="button">
+     
+         <li><a href="../index.html">Inicio</a></li>
+         <li><a href="../Ejercicio%2030/Ejercicio%2030.html">Siguiente</a></li>
+         <li><a href="../Ejercicio%2017/Ejercicio%204/Ejercicio%204.html">Anterior</a></li>
+
+    </ul>
+    </br>
+
+        <h1>Tablas</h1>
+
+<h1>Indice de Tablas:</h1>
+<p>
+    <ol class="indice_anclado">
+        <li><a href="#ej1">Tabla actividades</a></li>
+        <li><a href="#ej2">Tabla conciertos</a></li>
+        <li><a href="#ej3">Tabla Teddy bear collectors</a></li>
+        <li><a href="#ej4">Tabla delivery slots</a></li>
+        <li><a href="#ej5">Tabla Holidays</a></li>
+        <li><a href="#ej6">Tabla con columnas agrupadas</a></li>
+        <li><a href="#ej7">Poster name</a></li>
+        <li><a href="#ej8">Tabla de ropa</a></li>
+        <li><a href="#ej9">Buenas prácticas. br vs celdas</a></li>
+    </ol>
+</p>
+
+<h1 id="ej1">Tabla actividades <span class="cielo"><a href="#">Ir Arriba</a></span></h1>
+
+
+    <table border="1">
+            <caption>Actividades</caption>
+            <thead>
+                <tr>
+                <th>Fecha</th>
+                <th>Evento</th>
+                <th>Dirección</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>12 Ene</td>
+                <td>Waltz with Stratuss</td>
+                <td>Ayuntamiento</td>
+            </tr>
+            <tr>
+                <td>24 Mar</td>
+                <td>Beckmann. Figuras del axilio</td>
+                <td>Museo Nacional Thyssen-Bornemisza</td>
+            </tr>
+            <tr>
+                <td>24 Abr</td>
+                <td>The Which</td>
+                <td>Ayuntamiento</td>
+            </tr>
+        </tbody>
+      </table>
+
+
+    <h2>Datos de la Tabla</h2>
+
+    <ul>
+        <li>Caption &rarr; 1</li>
+        <li>tr &rarr; 4</li>
+        <li>th &rarr; 3</li>
+        <li>td &rarr; 9</li>
+    </ul>
+
+<hr size="2px" color="black" />
+
+<h1 id="ej2">Tabla conciertos <span class="cielo"><a href="#">Ir Arriba</a></span></h1>
+
+    <table border="1">
+            <caption>
+                <strong>Concert:</strong>
+            </caption>
+
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <td>12 February</td>
+                    <td>24 Martch</td>
+                    <td>14 Aprily</td>
+                </tr>
+            </thead>
+
+            <thead>
+                <tr>
+                    <th>Event</th>
+                    <td>Waltz with Strauss</td>
+                    <td>The obelisks</td>
+                    <td>the what</td>
+                </tr>
+            </thead>
+
+            <thead>
+                <tr>
+                    <th>Venue</th>
+                    <td>main hall</td>
+                    <td>west wing</td>
+                    <td>main hall</td>
+                </tr>
+            </thead>
+            </table>
+
+
+        <h2>Datos de la Tabla</h2>
+
+
+        <ul>
+            <li>caption &rarr; 1</li>
+            <li>th &rarr; 3</li>
+            <li>td &rarr; 9</li>
+         </ul>
+
+<hr size="2px" color="black" />
+
+<h1 id="ej3">Tabla Teddy bear collectors <span class="cielo"><a href="#">Ir Arriba</a></span></h1>
+
+
+    <table border="1">
+        <caption>Teddy bear collectors:</caption>
+        <thead>
+            <tr>
+                <th scope="col">last name</th>
+                <th scope="col">first name</th>
+                <th scope="col">City</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>phoenix</td>
+                <td>imari</td>
+                <td>henty</td>
+            </tr>
+
+            <tr>
+                <td>zeki</td>
+                <td>rome</td>
+                <td>min</td>
+            </tr>
+
+            <tr>
+                <td>Apirka</td>
+                <td>kelly</td>
+                <td>brynn</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h2>Datos de la Tabla</h2>
+
+    <ul>
+<li>th scope="col" &rarr; 3</li>
+    </ul>
+
+<hr size="2px" color="black" />
+
+<h1 id="ej4">Tabla delivery slots <span class="cielo"><a href="#">Ir Arriba</a></span></h1>
+
+
+    <table border="1">
+        <caption>delivery slots:</caption>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Monday</th>
+                <th scope="col">tuesday</th>
+                <th scope="col">wednesday</th>
+                <th scope="col">thursday</th>
+                <th scope="col">friday</th>
+            </tr>
+        </thead>
+
+        <thead>
+            <tr>
+                <th scope="row">09:00 -<br>11:00</th>
+                <td>Closed</td>
+                <td>Open</td>
+                <td>Open</td>
+                <td>Closed</td>
+                <td>Closed</td>
+            </tr>
+        </thead>
+
+        <thead>
+            <tr>
+                <th scope="row">11:00 -<br>13:00</th>
+                <td>Open</td>
+                <td>Open</td>
+                <td>Closed</td>
+                <td>Closed</td>
+                <td>Closed</td>
+            </tr>
+        </thead>
+
+        <thead>
+            <tr>
+                <th scope="row">13:00 -<br>15:00</th>
+                <td>Open</td>
+                <td>Open</td>
+                <td>Open</td>
+                <td>Closed</td>
+                <td>Closed</td>
+            </tr>
+        </thead>
+
+        <thead>
+            <tr>
+                <th scope="row">15:00 -<br>17:00</th>
+                <td>Closed</td>
+                <td>Closed</td>
+                <td>Closed</td>
+                <td>Open</td>
+                <td>Open</td>
+            </tr>
+        </thead>
+    </table>
+
+
+    <h2>Datos de la Tabla</h2>
+
+        <ul>
+            <li>th scope="col" &rarr; 6</li>
+            <li>th scope="row" &rarr; 3</li>
+        </ul>
+
+<hr size="2px" color="black" />
+
+<h1 id="ej5">Tabla Holidays <span class="cielo"><a href="#">Ir Arriba</a></span></h1>
+
+
+    <table border="1">
+      <caption>Holidays taken in the last six months</caption>
+      
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">July</th>
+          <th scope="col">August</th>
+          <th scope="col">September</th>
+          <th scope="col">October</th>
+          <th scope="col">November</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>215</td>
+          <th scope="row">Abel</th>
+          <td>5</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>231</td>
+          <th scope="row">Annette </th>
+          <td>0</td>
+          <td>5</td>
+          <td>3</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>173</td>
+          <th scope="row">Bernard</th>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>5</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>141</td>
+          <th scope="row">Gerald</th>
+          <td>0</td>
+          <td>10</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>99</td>
+          <th scope="row">Michael</th>
+          <td>8</td>
+          <td>8</td>
+          <td>8</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <h2>Datos de la Tabla</h2>
+
+    <ul>
+        <li>th scope="col" &rarr; 7</li>
+        <li>th scope="row" &rarr; 5</li>
+        <li>td &rarr; 30</li>
+                    
+                </ul>
+
+<hr size="2px" color="black" />
+
+<h1 id="ej6">Tabla con columnas agrupadas <span class="cielo"><a href="#">Ir Arriba</a></span></h1>
+
+
+    <table border="1">
+      <col>
+      <colgroup span="2"></colgroup>
+      <colgroup span="2"></colgroup>
+        <thead>
+          <tr>
+            <td rowspan="2"></td>
+            <th colspan="2" scope="colgroup">Mars</th>
+            <th colspan="2" scope="colgroup">Venus</th>
+          </tr>
+          <tr>
+            <th scope="col">Produced</th>
+            <th scope="col">Sold</th>
+            <th scope="col">Produced</th>
+            <th scope="col">Sold</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">Teddy Bears</th>
+            <td>50.000</td>
+            <td>30.000</td>
+            <td>100.000</td>
+            <td>80.000</td>
+          </tr>
+          <tr>
+            <th scope="row">Board Games</th>
+            <td>10.000</td>
+            <td>5.000</td>
+            <td>12.000</td>
+            <td>9.000</td>
+          </tr>
+      </tbody>
+    </table>
+
+    <h2>Datos de la Tabla</h2>
+
+        <ul>
+            <li>Agrupaciones con colgroup span="2" &rarr; 2</li>
+            <li>col &rarr; 1</li>
+            <li>Numnero de etiquetas fuera de tbody &rarr; 3</li>
+            <li>Etiquetas fuera de tbody &rarr; col, colgroup</li>
+            <li>th rowspan="2" &rarr; 1</li>
+            
+        </ul>
+
+<hr size="2px" color="black" />
+
+<h1 id="ej7">Poster name <span class="cielo"><a href="#">Ir Arriba</a></span></h1>
+
+
+    <table border="1">
+      <caption>Poster availability</caption>
+      <col>
+      <col>
+      <colgroup span="3"></colgroup>
+      <thead>
+        <tr>
+          <th scope="col">Poster name</th>
+          <th scope="col">Color</th>
+          <th colspan="3" scope="colgroup">Sizes available</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th rowspan="3" scope="rowgroup">Zodiac</th>
+          <th scope="row">Full color</th>
+          <td>A2</td>
+          <td>A3</td>
+          <td>A4</td>
+        </tr>
+        <tr>
+          <th scope="row">Black and white</th>
+          <td>A1</td>
+          <td>A2</td>
+          <td>A3</td>
+        </tr>
+        <tr>
+          <th scope="row">Sepia</th>
+          <td>A3</td>
+          <td>A4</td>
+          <td>A5</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <th rowspan="2" scope="rowgroup">Angels</th>
+          <th scope="row">Black and white</th>
+          <td>A1</td>
+          <td>A3</td>
+          <td>A4</td>
+        </tr>
+        <tr>
+          <th scope="row">Sepia</th>
+          <td>A2</td>
+          <td>A3</td>
+          <td>A5</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+
+    <h2>Datos de la Tabla</h2>
+
+    <ul>
+        <li>tbody &rarr; 2</li>
+        <li>thead &rarr; 1</li>
+        <li>colgroup span="3" &rarr; 1</li>
+        <li>cool &rarr; 2</li>
+        <li>th rowspan="2" scope="rowgroup" &rarr; 1</li>
+        <li>th scope="row” &rarr; 5</li>
+        <li>th scope="col” &rarr; 2</li>
+
+    </ul>
+
+<hr size="2px" color="black" />
+
+<h1 id="ej8">Tabla de ropa <span class="cielo"><a href="#">Ir Arriba</a></span></h1>
+
+    <table border="1">
+
+          <thead>
+            <tr>
+              <th>Shrit</th>
+              <th>Size</th>
+              <th>Stock</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th rowspan="3">Blue</th>
+              <td>S</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>M</td>
+              <td>13</td>
+            </tr>
+            <tr>
+              <td>XL</td>
+              <td>10</td>
+            </tr>
+
+            <tr>
+              <th rowspan="4">Red</th>
+              <td>M</td>
+              <td>2</td>
+            </tr>
+
+            <tr>
+              <td>L</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <td>XL</td>
+              <td>10</td>
+            </tr>
+
+            <tr>
+              <td>XXL</td>
+              <td>1</td>
+            </tr>
+
+
+
+          </tbody>
+
+        </table>
+
+    <h2>Datos de la Tabla</h2>
+
+    <ul>
+        <li>td &rarr; 14</li>
+        <li>th &rarr; 5</li>
+    </ul>
+
+<hr size="2px" color="black" />
+
+<h1 id="ej9">Buenas prácticas. br vs celdas <span class="cielo"><a href="#">Ir Arriba</a></span></span></h1>
+
+
+    <h5>Version con BR</h5>
+    <table border="1">
+
+          <thead>
+            <tr>
+              <th>Fruit</th>
+              <th>Instructions</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th>Apple <br> Orange</th>
+              <td>cut in half, remove core <br> remove peel, cut out segments</td>
+            </tr>
+          </tbody>
+
+    </table>
+
+    <h5>Version con celdas</h5>
+    <table border="1">
+
+          <thead>
+            <tr>
+              <th>Fruit</th>
+              <th>Instructions</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th>Apple</th>
+              <td>cut in half, remove core</td>
+            </tr>
+
+            <tr>
+              <th>Orange</th>
+              <td>remove peel, cut out segments</td>
+            </tr>
+          </tbody>
+
+    </table>
+
+
+    <h2>Respuesta del ejercicio</h2>
+
+    <ul>
+        <li>El diseño cambió.</li>
+        <li>La funcionalidad de la tabla no está bien diseñada, ya que los datos están mezclados.</li>
+        <li>Al hacer zoom o al navegar con dispositivos móviles la alineación de la tabla de descuadra en el caso de la tabla con la etiqueta BR.</li>
+    </ul>
+
+
+<hr size="2px" color="black" />
+
+      
+    </body>
+</html>

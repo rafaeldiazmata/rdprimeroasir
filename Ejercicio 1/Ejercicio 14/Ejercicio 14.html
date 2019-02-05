@@ -1,0 +1,68 @@
+<html>
+ 
+<head>
+	<meta name="author" content="Rafael Carlos Díaz Mata"/>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="../../general.css">
+	<link rel="stylesheet" type="text/css" href="../../estilo.css">
+	<title>Rafael Carlos Díaz Mata 1ºAsir</title>
+</head>
+ 
+<body>
+ 
+<ul id="button">
+ 
+ <li><a href="../../index.html">Inicio</a></li>
+ <li><a href="../Ejercicio%2015/Ejercicio%2015.html">Siguiente</a></li>
+ <li><a href="../Ejercicio%2013/Ejercicio%2013.html">Anterior</a></li>
+
+</ul>
+</br>
+
+<h1>Rellena tu CV</h1>
+ 
+<form action="/php/insertar_cv.php" method="post" enctype="multipart/form-data">
+Nombre <br/>
+	<input type="text" name="nombre" value="" size="20" maxlength="30" />
+ 
+<br/>
+ 
+Apellidos <br/>
+	<input type="text" name="apellidos" value="" size="50" maxlength="80" />
+ 
+<br/>
+ 
+Contraseña <br/>
+	<input type="password" name="contrasena" value="" maxlength="10" />
+ 
+<br/>
+ 
+DNI <br/>
+	<input type="text" name="dni" value="" size="10" maxlength="9" />
+ 
+<br/>
+ 
+	Sexo <br/>
+	<input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre <br/>
+	<input type="radio" name="sexo" value="mujer" /> Mujer
+ 
+<br/><br/>
+ 
+Incluir mi foto <input type="file" name="foto" />
+ 
+	<br/><br/>
+ 
+		<input name="suscribir" type="checkbox" value="suscribir" checked="checked"/> Suscribirme al boletín de novedades
+ 
+	<br/><br/>
+ 
+		<input type="submit" name="enviar" value="Guardar cambios" />
+		<input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+ 
+ 
+</form>
+ 
+</body>
+ 
+</html>
