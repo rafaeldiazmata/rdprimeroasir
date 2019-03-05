@@ -1,0 +1,48 @@
+body{
+    background-color: #f4f9f4;
+}
+
+.contenedor{
+
+    display: flex;
+}
+
+
+.Titulo{
+
+    background-color: #f4f9f4;
+    text-align: center
+}
+
+ul{
+   text-align: left;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace
+}
+
+h2{
+
+}
+
+h3{
+    text-align: center
+
+}
+
+.intel{
+    background-color: #a7d7c5;
+    font-family: cursive;
+    border-radius: 28px 0px;
+    text-align: center;
+    margin: 10px
+}   
+
+.amd{
+    font-family: cursive;
+    border-radius: 28px 0px;
+    text-align: center;
+    background-color: #74b49b;
+    margin: 10px
+}

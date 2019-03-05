@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+	<meta name="author" content="Rafael Carlos Díaz Mata"/>
+	<meta charset="UTF-8"/>
+	<link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<title>Rafael Carlos Díaz Mata 1º Asir</title>
+</head>
+
+<body>
+
+	
+<!---->	
+	<article class="Titulo"><h1>4.5-) Tecnologías Microprocesadores Actuales</h1></article>
+
+	<h2>4.5.1 Intel</h2>
+	<section class="contenedor">
+	<article class="intel">
+		<h3>4.5.1.1	HYPER-THREADING</h3>
+		<p>Utiliza los recursos del procesador de manera más eficiente, permitiendo que se ejecuten múltiples subprocesos en cada núcleo.
+        Básicamente se trata de que cada núcleo trabaja como dos CPU’s lógicos. Ha estos CPU’s lógicos se les denomina Threads (hilos).
+        Pero para que se pueda aplicar esta técnica, se usan mas transistores de la oblea de fabricación para poder duplicar las unidades funcionales de cada nucleo, para que no haya cuello de botella cuando hay que hacer uso de alguna unidad funcional crítica, como puede ser la ALU (u otras unidades funcionales), y los dos hilos puedan procesar de forma paralela</p>
+	</article>
+
+	<article class="intel">
+		<h3>4.5.1.2	TURBO BOOST</h3>
+		<p>Tecnología Intel® Turbo Boost es una forma de ejecutar automáticamente el núcleo del procesador más rápido que la frecuencia marcada bajo los límites especificados de la potencia de diseño térmico (TDP), temperatura y consumo de energía. Esto se traduce en un mayor rendimiento de aplicaciones de uno o varios subprocesos. La cantidad de tiempo que el procesador pasa en ese estado depende de la carga de trabajo y el entorno operativo
+        Es decir, realiza un overclocking controlado y automático cuando las necesidades de procesamiento del sistema lo requieren, teniendo en cuenta frecuencia, energía y temperatura del microprocesador en cada momento.
+        Actualmente Turbo Boost está en su versión 2.0</p>
+	</article>
+
+	<article class="intel">
+		<h3>4.5.1.3	INTEL® TURBO BOOST MAX 3.0</h3>
+		<p>La tecnología Intel® Turbo Boost Max 3.0 utiliza un controlador junto con la información almacenada en la CPU. Identifica y dirige las cargas de trabajo al núcleo más veloz en el chip en primer lugar. El controlador también permite la configuración personalizada a través de una lista blanca que permite que los usuarios finales establezcan la prioridad a las aplicaciones preferidas. El controlador DEBE estar presente en el sistema y configurado correctamente, ya que los sistemas operativos actuales no pueden distribuir eficazmente las cargas de trabajo a núcleos ordenados.
+        La tecnología Intel® Turbo Boost Max 3.0 requiere instalación y que se habilite la compatibilidad con BIOS, los controladores y las aplicaciones de software. Su diferencia con Intel® Turbo Boost 2.0 es que permite frecuencias más altas con turbo single-core en comparación con la tecnología Intel® Turbo Boost 2.0.
+        
+        La Tecnología Intel® Turbo Boost Max 3.0 requiere unos requisitos previos, que son los siguientes:
+       <ul>
+        <li>Un procesador compatible</li>
+        <li>Un sistema operativo compatible</li>
+        <li>Un controlador con una aplicación de interfaz de usuario asociada</li>
+        <li>Una placa basada en X99 o en X299 o superior de la misma gama extrema X, con un BIOS habilitado y firmware que admita esta característica</li>
+        </ul>
+        
+        <ul>
+        Procesadores compatibles:
+        <li>Procesadores Intel® Core™ i7-6950X, i7-6900K, i7-6850K e i7-6800K • Procesadores Intel® Core™ i9-7980XE, i9-7960X, i9-7940X, i9-7920X, i9-7900X e i7-7820X</li> 
+        <li>La familia de productos de procesador Intel® Xeon® E5-1600 v4</li>
+        </ul>
+    </p>
+	</article>
+	</section>
+
+
+	<h2>4.5.2 Amd</h2>
+	<section class="contenedor">
+	<article class="amd">
+	<p>Dentro de todas las tecnologías que implementa AMD vamos a ver las más destacadas, y sobre todo las últimas y más novedosas. En primer lugar describimos la tecnología Turbo Core de AMD, que es la solución similar de AMD al Turbo Boost de Intel. El resto de tecnologías son todas de la nueva arquitectura ZEN y vienen en todos los microprocesadores RYZEN. Este conjunto de nuevas tecnologías las engloba AMD con el término AMDSenseMI</p>	
+
+	</article>
+
+	
+	<article class="amd">
+	<h3>4.5.2.1	TURBO CORE DE AMD</h3>
+	<p>La tecnología Turbo Core de AMD se ajusta dinámicamente para ofrecerte un mayor rendimiento cuando el sistema operativo requiera el más alto rendimiento del procesador. Si un núcleo funciona por debajo del límite máximo y tu carga de trabajo requiere un rendimiento adicional, la frecuencia del procesador aumentará dinámicamente hasta alcanzar el límite superior de la frecuencia. A medida que se reduce tu carga de trabajo, el núcleo vuelve a la frecuencia normal.</p>	
+
+	</article>
+
+	
+	<article class="amd">
+	<h3>4.5.2.2	PURE POWER</h3>
+	<p>Operación de procesador con altos niveles de refrigeración y silencio mediante inteligencia artificial, sensores y un diseño de circuito optimizado.
+    <ul>
+    
+    <li>Supervisión de temperatura, velocidad y voltaje</li>
+    <li>Control adaptativo que administra en tiempo real para reducir el uso de energía</li>
+    <li>Supervisión continua que guía otras características de AMD SenseMI</li>
+
+    </ul>
+	</p>	
+	</article>
+
+	
+	<article class="amd">
+	<h3>4.5.2.3	PRECISION BOOST</h3>
+	<p>Con Precision Boost (Aumento de la precisión) AMD obtiene un rendimiento de procesador muy preciso ajustado en tiempo real para satisfacer las exigencias de velocidad de reloj de tu juego o aplicación.
+	<ul>	
+   
+    <li>Trabajo conjunto con el bucle de control de potencia pura para optimizar el rendimiento</li>
+    <li>Ajuste de reloj sobre la marcha sin interrupciones ni purgas del contenido de colas</li>
+    <li>Ajuste de alta precisión con incrementos de 25 MHz</li>
+
+    </ul>
+    </p>	
+	</article>
+
+	
+	<article class="amd">
+	<h3>4.5.2.4	EXTENDED FREQUENCY RANGE</h3>
+	<p>Extended Frequency Range (Rango de frecuencia extendido) es el aumento automático adicional del rendimiento para aficionados con sistemas premium y refrigeración de procesador.Frecuencias que superan los límites habituales de aumento de la precisión
+    Escalas de velocidad de reloj con soluciones de refrigeración: por aire, agua y LN2 Automatización completa sin necesidad de intervención del usuario
+	</p>	
+	</article>
+
+	
+	<article class="amd">
+	<h3>4.5.2.5	NEUTRAL NET PREDICTION</h3>
+	<p>Neural Net Prediction (Predicción de red neuronal) es una inteligencia artificial integrada que desbloquea el procesador para abordar la carga de trabajo de la aplicación con más eficiencia.
+	<ul>
+
+    <li>Una verdadera red artificial dentro de cada procesador “Zen”</li>
+    <li>Creación de un modelo de decisiones impulsadas por la ejecución de código de software</li>
+    <li>Anticipación de futuras decisiones, carga previa de instrucciones y selección de la mejor ruta a través de la CPU</li>
+
+    </ul>
+	</p>	
+	</article>
+
+	
+	<article class="amd">
+	<h3>4.5.2.6	SMART PREFETCH</h3>
+	<p>Smart Prefetch (Captura previa inteligente) son algoritmos de aprendizaje que permiten predecir y hacer la carga previa de datos necesarios para una computación rápida y con capacidad de respuesta.
+	<ul>
+
+    <li>Anticipación de la ubicación de futuros accesos de datos mediante código de aplicación</li>
+    <li>Modelo de algoritmos de aprendizaje sofisticados y aprendizaje de patrones de acceso a datos de aplicaciones</li>
+    <li>Captura previa de datos vitales en la caché local para un uso inmediato</li>
+    
+    </ul>
+	</p>	
+	</article>
+	</section>
+
+
+</body>
+</html>
