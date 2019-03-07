@@ -1,0 +1,91 @@
+body { 
+	font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+	display: grid;
+	grid-template-areas: 
+    "header header header"
+    "nav section aside"
+    "footer footer footer";
+	grid-template-rows: 80px 1fr 50px;
+	grid-template-columns: 15% 1fr 18%;
+	grid-gap: 5px;
+  height: 100vh;
+  margin: 10px;  
+}
+
+
+header {
+	background-color: cornsilk;
+	grid-area: header;
+	display: flex;
+    justify-content: space-between;
+}
+
+nav {
+	background-color: antiquewhite;
+	grid-area: nav; 
+}
+
+section {
+	background: #floralwhite;
+	grid-area: section;
+}
+
+aside {
+	background-color: bisque;
+	grid-area: aside; 
+}
+
+footer {
+	background: #707070;
+	grid-area: footer;
+	display: flex;
+    justify-content: center;
+}
+
+header, nav, section, aside, footer {
+	padding: 5px;
+}
+
+
+.Contenedor{
+	display: flex;
+    flex-flow: wrap;
+}
+
+.intel{
+    background-color: #a7d7c5;
+    font-family: cursive;
+    border-radius: 28px 0px;
+    margin: 10px
+}   
+
+.amd{
+    font-family: cursive;
+    border-radius: 28px 0px;
+    background-color: #74b49b;
+    margin: 10px
+}
+
+
+.amd,.intel{
+
+	width: 25%;
+}
+
+.full_ancho{
+
+	width: 100%;
+}
+
+ul{
+    text-align: left;
+ }
+
+ p{
+	 font-family: cursive;
+ }
+
+ h2{
+	width: 100%;
+
+ }
