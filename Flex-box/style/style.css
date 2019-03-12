@@ -5,6 +5,9 @@ body{
 .contenedor{
 
     display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 
@@ -36,7 +39,8 @@ h3{
     font-family: cursive;
     border-radius: 28px 0px;
     text-align: center;
-    margin: 10px
+    margin: 10px;
+    width: 30%
 }   
 
 .amd{
@@ -44,5 +48,6 @@ h3{
     border-radius: 28px 0px;
     text-align: center;
     background-color: #74b49b;
-    margin: 10px
+    margin: 10px;
+    width: 30%
 }
