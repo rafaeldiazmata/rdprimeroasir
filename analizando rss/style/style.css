@@ -1,0 +1,40 @@
+*{
+    font-family: cursive;
+}
+
+body{
+    background-color: #e3fdfd;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#Analizar{
+
+    background: #a6e3e9;
+}
+
+#RSS{
+    background: #71c9ce;
+}
+
+#ATOM{
+    background: #11999e;
+
+}
+
+#Mio{
+
+    background: #3f72af;
+
+}

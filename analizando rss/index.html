@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Rafael Carlos Díaz Mata"/>
+	<meta charset="UTF-8"/>
+	<link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<title>Rafael Carlos Díaz Mata 1º Asir</title>
+</head>
+
+<body>
+
+<header>
+	<p>Rafael Carlos Diaz Mata</p>
+	<img src="media/Logo.png">
+</header>
+
+<nav>
+	<a href="#Analizar">Analizando</a>
+	<a href="#RSS">Estructura y elementos RSS</a>
+	<a href="#ATOM">Estructura y elementos Atom</a>
+	<a href="html/RSS.html">RSS</a>
+	<a href="html/atom.html">Atom</a>
+</nav>
+
+<section>
+	
+	<article id="Analizar">
+		
+		<p>Enlaces de los XML</p>
+		<ul>
+			<li><a href="http://static.userland.com/gems/backend/rssTwoExample2.xml">Primer enlace</a></li>
+			<li><a href="https://www.feedforall.com/sample-feed.xml">Segundo enlace</a></li>
+			<li><a href="https://validator.w3.org/feed/check.cgi?url=http%3A%2F%2Fapi2.rtve.es%2Frss%2Ftemas_rock-pop.xml">Tercer enlace</a></li>
+			<li><a href="http://www.aemet.es/documentos_d/eltiempo/prediccion/avisos/rss/CAP_AFAP7431_ATOM.xml">Cuarto enlace</a></li>
+		</ul>
+
+		<p>Responde a las siguientes preguntas</p>
+
+		<ol>
+			<li>Indica si es válido el feed</li>
+			<li>Subsana los errores/warnings en su caso</li>
+			<li>Indica channel o equivalente</li>
+			<li>Indica número de items o equivalentes</li>
+
+		</ol>
+
+
+		<h3>1º Enlace</h3>
+
+		<img src="media/1enlace.png" height="65%" width="65%">
+
+		<h4>2º Ejercicio</h4>
+		<p>
+			<managingEditor>dave@userland.com(correoejemplo@gmail.com)</managingEditor>
+<br></br>			
+			<webMaster>dave@userland.com(correoejemplo@gmail.com)</webMaster>
+<br></br>
+			Donde se declara el RSS se añade esto:
+<br></br>			
+			rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom%22%3E"
+<br></br>			
+			atom:link href="http://dallas.example.com/rss.xml" rel="self" type="application/rss+xml"
+
+		</p>
+
+		<h4>3º Ejercicio</h4>
+		<p>
+			Channel:
+			line 4 --> Abre
+			line 82 --> Cierra
+		</p>
+
+		<h4>4º Ejercicio</h4>
+		<p>En la estructura XML hay 9 etiquetas items</p>
+
+
+		<h3>2º Enlace</h3>
+
+		<img src="media/2enlace.png" height="65%" width="65%">
+
+		<h4>2º Ejercicio</h4>
+		<p>
+			
+			<managingEditor>marketing@feedforall.com(correoejemplo@gmail.com)</managingEditor>
+<br></br>
+			<webMaster>webmaster@feedforall.com(correoejemplo@gmail.com)</webMaster>			
+<br></br>
+			Fallo imagen: Repite el título del channel 
+<br></br>	
+			Fallo link: Usar el link del Channel.
+<br></br>		
+			El fallo de la etiqueta item:Añadir un guid unico a cada item
+<br></br>
+			Donde se declara el RSS se añade esto:
+<br></br>			
+			rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom%22%3E"
+<br></br>			
+			atom:link href="http://dallas.example.com/rss.xml" rel="self" type="application/rss+xml"
+		</p>
+
+		<h4>3º Ejercicio</h4>
+		<p>
+			Channel:
+			line 4 --> Abre
+			line 50 --> Cierra</p>
+
+		<h4>4º Ejercicio</h4>
+		<p>En la estructura XML hay 3 etiquetas items</p>
+
+
+		<h3>3º Enlace</h3>
+
+		<img src="media/3enlace.png" height="65%" width="65%">
+
+		<h4>2º Ejercicio</h4>
+		<p>
+			El fallo de la etiqueta item:Añadir un guid unico a cada item
+<br></br>
+			Para solucionar el error de los style en las etiquetas description solo se deben borrar las etiquetas style
+<br></br>
+				Donde se declara el RSS se añade esto:
+<br></br>			
+			rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom%22%3E"
+<br></br>			
+			atom:link href="http://dallas.example.com/rss.xml" rel="self" type="application/rss+xml"
+		</p>
+
+		<h4>3º Ejercicio</h4>
+		<p>
+			Channel:
+			line 3 --> Abre
+			line 421 --> Cierra</p>
+
+
+		<h4>4º Ejercicio</h4>
+		<p>En la estructura XML hay 69 etiquetas items</p>
+
+		<h3>4 Enlace</h3>
+
+		<img src="media/4enlace.png" height="65%" width="65%">
+
+		<h4>2º Ejercicio</h4>
+		<p>
+			Fallo link: Usar el link del Channel.
+<br></br>	
+			Fallo id: Falta por añadir el "http://"
+<br></br>
+			Fallo link: falta el rel:self
+<br></br>			
+			Fallo feed: feed xmlns:atom="http://www.w3.org/2005/Atom%22%3E"	
+
+		</p>
+
+
+		<h4>3º Ejercicio</h4>
+		<p>
+			
+			Feed (Similar al channel pero en el atom es feed)
+			line 2 --> Abre
+			line 20 --> Cierra
+		</p>
+
+
+		<h4>4º Ejercicio</h4>
+		<p>En la estructura XML hay 1 etiquetas entry</p>
+
+	</article>
+
+
+
+	<article id="RSS">
+		
+		<ol>
+			<li>Estructura principal de un documento RSS
+			<p>
+				
+				&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;
+<br></br>				
+				&lt;rss version="2.0"&gt;
+<br></br>
+				&lt;channel&gt;
+<br></br>				
+				&lt;/channel&gt;
+<br></br>				
+				&lt;/rss&gt;
+			</p>
+
+			</li>
+
+			<li>Indica cuántos elementos &lt;channel&gt; puede haber en un documento RSS
+
+				<p>Pueden haber elementos fijos/estaticos y tambien hay elementos dinamicos/items</p>
+
+			</li>
+			<li>Indica los elementos requeridos en &lt;channel&gt; (son tres)
+<br></br>
+				&lt;title&gt;  Titulo de la noticia
+<br></br>
+				&lt;link&gt;	Link de la noticia
+<br></br>
+				&lt;description&gt; Breve descripcion de la noticia
+
+			</li>
+			<li>Indica los elementos secundarios en &lt;channel&gt; (son 16)
+
+				<p>language</p>
+				<p>copyright</p>
+				<p>managingEditor</p>
+				<p>webMaster</p>
+				<p>pubDate</p>
+				<p>lastBuildDate</p>
+				<p>category</p>
+				<p>generator</p>
+				<p>docs</p>
+				<p>cloud</p>
+				<p>ttl</p>
+				<p>image</p>
+				<p>textInput</p>
+				<p>skipHours</p>
+				<p>skipDays</p>
+
+			</li>
+			<li>Elementos item
+
+				<p>title</p>
+				<p>link</p>
+				<p>description</p>
+				<p>author</p>
+				<p>category</p>
+				<p>comments</p>
+				<p>enclosure</p>
+				<p>guid</p>
+				<p>pubDate</p>
+				<p>source</p>
+
+			</li>
+			<li>Indica el elemento que añade un elemento multimedia. Indica sus tres atributos
+
+				<p>enclosure atributos:</p>
+				<p>url</p>
+				<p>length</p>
+				<p>type</p>
+			</li>
+		</ol>
+
+	</article>
+
+
+	<article id="ATOM">
+		
+		<ol>
+			<li>Estructura principal de un documento Atom
+
+					<p>&lt;?xml version="1.0" encoding="utf-8"?&gt;</p>
+					<p>&lt;feed xmlns="http://www.w3.org/2005/Atom"&gt;</p>
+
+  					<p>&lt;title&gt;Example Feed&lt;/title&gt;</p>
+  					<p>&lt;link href="http://example.org/"/&gt;</p>
+ 	 				<p>&lt;updated&gt;2003-12-13T18:30:02Z&lt;/updated&gt;</p>
+  					<p>&lt;author&gt;</p>
+    				<p>&lt;name&gt;John Doe&lt;/name&gt;</p>
+  					<p>&lt;/author&gt;</p>
+  					<p>&lt;id&gt;urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6&lt;/id&gt;</p>
+
+  					<p>&lt;entry&gt;</p>
+    				<p>&lt;title&gt;Atom-Powered Robots Run Amok&lt;/title&gt;</p>
+    				<p>&lt;link href="http://example.org/2003/12/13/atom03"/&gt;</p>
+    				<p>&lt;id&gt;urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a&lt;/id&gt;</p>
+    				<p>&lt;updated&gt;2003-12-13T18:30:02Z&lt;/updated&gt;</p>
+    				<p>&lt;summary&gt;Some text.&lt;/summary&gt;</p>
+  					<p>&lt;/entry&gt;</p>
+
+					<p>&lt;/feed&gt;</p>
+
+				</p>
+
+			</li>
+			<li>Indica cuántos elementos &lt;feed&gt; puede haber en un documento Atom
+
+				<p>Unicamente uno</p>
+
+			</li>
+			<li>Indica los elementos requeridos en &lt;feed&gt;
+
+				<p>Indica los elementos requeridos en &lt;channel&gt; (son tres)</p>
+<br></br>
+				&lt;title&gt;  Titulo de la noticia
+<br></br>
+				&lt;link&gt;	Link de la noticia
+<br></br>
+				&lt;description&gt; Breve descripcion de la noticia
+<br></br>
+			</li>
+			<li>Indica los elementos recomendados en &lt;feed&gt;
+
+				<p>author</p>
+
+				<p>link</p>
+
+			</li>
+			<li>Indica los elementos opcionales en &lt;feed&gt;
+
+				<p>category</p>
+				<p>contributor</p>
+				<p>generator</p>
+				<p>icon</p>
+				<p>logo</p>
+				<p>rights</p>
+				<p>subtitle</p>
+
+			</li>
+			<li>Indica los elementos requeridos en &lt;entry&gt;
+
+				<p>id</p>
+				<p>title</p>
+				<p>updated</p>
+
+			</li>
+			<li>Indica los elementos recomendados en &lt;entry&gt;
+
+				<p>author</p>
+				<p>content</p>
+				<p>link</p>
+				<p>summary</p>
+
+			</li>
+			<li>Indica los elementos opcionales en &lt;entry&gt;
+
+				<p>category</p>
+				<p>contributor</p>
+				<p>published</p>
+				<p>rights</p>
+				<p>source</p>
+			</li>
+		</ol>
+
+
+	</article>
+</section>
+
+
+
+</body>
+</html>
