@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns:atom="http://www.w3.org/2005/Atom">
   <title>Mi primer Atom</title> 
-  <link href="https://rafaeldiazmata.github.io/rdprimeroasir/"/>
-  <updated>29/08/2019</updated>
+  <link href="https://rafaeldiazmata.github.io/rdprimeroasir/analizando%20rss/html/atom.html"/>
+  <updated>2019-03-29T09:15:00+00:00</updated>
+  <id href="https://rafaeldiazmata.github.io/rdprimeroasir/analizando%20rss/html/atom.html"/>
   <author> 
     <name>Rafael Carlos Díaz Mata</name>
   </author> 
@@ -11,5 +12,4 @@
     <link href="https://rafaeldiazmata.github.io/rdprimeroasir/"/>
     <summary>Resumen de mi atom para el ejercicio del dia 29/03</summary>
   </entry>
-
 </feed>
