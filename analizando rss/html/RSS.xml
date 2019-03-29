@@ -2,12 +2,12 @@
 		<rss xmlns:blogChannel="http://backend.userland.com/blogChannelModule" version="2.0">
 		<channel>
 		<title>RSS</title>
-		<link href="https://rafaeldiazmata.github.io/rdprimeroasir/analizando%20rss/html/RSS.xml"/>
+		<link href="https://github.com/rafaeldiazmata/rdprimeroasir"/>
 		<description>Noticia de RSS</description>
 		
 		<item>
 		<title>Segunda noticia</title>	
-		<link href="https://rafaeldiazmata.github.io/rdprimeroasir/analizando%20rss/html/RSS.xml"</link>	
+		<link href="https://github.com/rafaeldiazmata/rdprimeroasir"/>	
 		<description>Segunda noticia de RSS</description>	
 		</item>
 			
