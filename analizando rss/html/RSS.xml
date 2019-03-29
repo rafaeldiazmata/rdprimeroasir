@@ -1,15 +1,19 @@
-		
-		<rss xmlns:blogChannel="http://backend.userland.com/blogChannelModule" version="2.0">
-		<channel>
-		<title>RSS</title>
-		<link href="https://github.com/rafaeldiazmata/rdprimeroasir"/>
-		<description>Noticia de RSS</description>
-		
-		<item>
-		<title>Segunda noticia</title>	
-		<link href="https://github.com/rafaeldiazmata/rdprimeroasir"/>	
-		<description>Segunda noticia de RSS</description>	
-		</item>
-			
-		</channel>
-		</rss>
+<?xml version="1.0" encoding="utf-8" ?>
+                <rss version="2.0">
+                <channel>
+                    
+                            <title>Mi primer RSS</title>
+                            <link>https://github.com/rafaeldiazmata/rdprimeroasir</link>
+                            <description>primer RSS</description>
+                    
+                            <item>
+                    
+                            <title>Segunda noticia RSS</title>
+                            <link>https://github.com/rafaeldiazmata/rdprimeroasir</link>
+                            <description>Segunda noticia RSS</description>
+                    
+                            </item>
+                   
+                    
+                    </channel>
+                    </rss>
