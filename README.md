@@ -1,4 +1,4 @@
-Este sera el repositorio donde se almacenara y subira las entregas de Lenguaje de Marcas
+Repositorio donde se almacena las practicas de la asignatura de Lenguaje de Marcas realizadas en el grado superior de Administración de sistemas en red.
 
 Rafael Carlos Diaz Mata 1ºAsir
 
